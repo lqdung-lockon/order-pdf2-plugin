@@ -1,0 +1,8 @@
+name: OrderPdf2
+event: OrderPdf2Event
+code: OrderPdf2
+version: 1.0.0
+service:
+    - OrderPdf2ServiceProvider
+orm.path:
+    - /Resource/doctrine

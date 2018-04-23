@@ -1,0 +1,7 @@
+#
+# Event fock
+#
+
+# New hookpoint for version >= 3.0.9
+Admin/Order/index.twig:
+    - [onAdminOrderIndexRender, NORMAL]
